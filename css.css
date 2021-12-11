@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+}
+
+#MyModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #817b7b;
+}
+
+#modal-content{
+    background-color: darkgray;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #0a5757;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 5px 6px 27px 12px #2c735c;
+    height: 100px;
+}
+
+#close{
+    color: red;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    background-color: darkgray;
+}
+
+#close:hover,
+#close:focus{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2{
+    font-family: cursive;
+    color: orange;
+    font-size: 30px;
+}
+
+#MyBtn{
+    border-radius: 5%;
+    background-color: #ef9f09;
+    align-self: center;
+    font-weight: bold;
+
+}
+
