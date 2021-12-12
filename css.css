@@ -49,10 +49,11 @@ h2{
 }
 
 #MyBtn{
-    border-radius: 5%;
+    border-radius: 5px;
     background-color: #ef9f09;
     align-self: center;
     font-weight: bold;
+    font-family: cursive;
 
 }
 
