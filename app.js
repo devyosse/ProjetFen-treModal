@@ -3,7 +3,6 @@ let close = document.getElementById("close");
 let modal = document.getElementById("MyModal");
 let add = document.getElementById('add');
 
-
 let Fenetre = (modal) => {
     this.modal = modal;
     modal.style.display = "block";
@@ -23,16 +22,14 @@ let Fenetre = (modal) => {
 
 }
 
-
-
 let nouveau = function (modal2) {
     Fenetre.call(this, modal, modal2);
 };
 
 nouveau.prototype = Object.create(Fenetre);
 nouveau.prototype.constructor = nouveau;
-nouveau.prototype.modd =function (){
-    if (this.modal2){
+nouveau.prototype.modd = function () {
+    if (this.modal2) {
         return moddal2.style.display = "block";
     }
 }
